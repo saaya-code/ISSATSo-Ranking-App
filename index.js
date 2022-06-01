@@ -34,6 +34,6 @@ async function verif(){
     console.log(response.data)
     if(response){
         alert("Registation complete.")
-        document.location.href = "/front/htmlPages/rankings.html"
+        document.location.href = "https://saaya-code.github.io/ISSATSo-Ranking-App/rankings.html"
     }
 }
