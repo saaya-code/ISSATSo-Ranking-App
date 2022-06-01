@@ -11,7 +11,7 @@ function compare( a, b ) {
 
 
 async function provoke(){
-const URL = "http://localhost:3000/api/v1/ranks"
+const URL = "https://diligent-scrawny-cord.glitch.me/api/v1/ranks"
 const response = await axios.get(URL);
 const etudArray = response.data.etud
 etudArray.sort(compare)

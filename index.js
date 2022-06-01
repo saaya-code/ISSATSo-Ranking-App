@@ -29,7 +29,7 @@ async function verif(){
     }
     console.log(Data)
     
-    const URL = "http://localhost:3000/api/v1/ranks"
+    const URL = "https://diligent-scrawny-cord.glitch.me/api/v1/ranks"
     const response = await axios.post(URL, Data);
     console.log(response.data)
     if(response){
