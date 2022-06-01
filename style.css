@@ -8,7 +8,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
   }
@@ -58,5 +58,7 @@ body{
     text-align: left;
     border-bottom: 1px solid #ddd;
   }
-  tr:hover {background-color: rgb(230, 243, 252);}
+  tr:hover {background-color: rgb(230, 243, 252);
+  
+  }
 
