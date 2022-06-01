@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+    
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="/front/htmlPages/rankings.html">Rankings</a></li>
+        <li><a href="/front/htmlPages/about.html">About</a></li>
+      </ul>
+      <div class="root">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="score">score:</label><br>
+            <input type="number" id="score" name="score"><br>
+            <label for="classe">Class</label><br>
+            <select id="classe">
+                <option value="0">Select your class</option>
+                <option value="1">Prépa A1-01</option>
+                <option value="2">Prépa A1-02</option>
+                <option value="3">Prépa A1-03</option>
+                <option value="4">Prépa A1-04</option>
+            </select><br>
+            <br>
+        <input type="button" value="Submit" onclick=" return verif()">
+    </div>
+</body>
+</html>
